@@ -5,7 +5,7 @@ Sales-Prediction/
 │  ├─ sales_trend.png
 │  └─ predicted_vs_actual_sales.png
 ├─ notebooks/
-│  └─ analysis.ipynb        # Exploratory Data Analysis (EDA)
+│  └─ analysis.ipynb         # Exploratory Data Analysis (EDA) with plots and observations
 ├─ src/
 │  ├─ generate_data.py
 │  ├─ generate_extended_data.py
@@ -14,6 +14,6 @@ Sales-Prediction/
 │  ├─ train_model.py
 │  ├─ predict.py
 │  └─ utils.py
-├─ requirements.txt
+├─ requirements.txt          # Dependency file
 ├─ .gitignore
 └─ README.md
