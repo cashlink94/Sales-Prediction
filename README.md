@@ -1,23 +1,19 @@
-# Sales Prediction
-
-## Overview
-This project predicts future sales using a simple linear regression model
-trained on daily sales data.
-
-## Tools
-- Python
-- Pandas
-- scikit-learn
-- Matplotlib
-
-## Key Steps
-- Loaded the dataset from CSV
-- Feature engineering: extracted Year, Month, Day
-- Split data into training and test sets
-- Trained a Linear Regression model
-- Predicted sales and evaluated model performance
-- Visualized actual vs predicted sales
-
-## Results
-- Mean Squared Error (MSE) and R² metrics
-- Scatter plot showing actual vs predicted sales
+Sales-Prediction/
+├─ data/
+│  ├─ sales_prediction_data.csv
+│  ├─ sales_prediction_data_extended.csv
+│  ├─ sales_trend.png
+│  └─ predicted_vs_actual_sales.png
+├─ notebooks/
+│  └─ analysis.ipynb        # Exploratory Data Analysis (EDA)
+├─ src/
+│  ├─ generate_data.py
+│  ├─ generate_extended_data.py
+│  ├─ visualize_sales.py
+│  ├─ train_sales_model.py
+│  ├─ train_model.py
+│  ├─ predict.py
+│  └─ utils.py
+├─ requirements.txt
+├─ .gitignore
+└─ README.md
